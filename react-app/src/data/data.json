@@ -1,0 +1,184 @@
+{
+  "Header": {
+    "title": "Swiss-German Institute",
+    "paragraph": "Excellence Award for Your Online Business Reputation"
+  },
+  "Awards": [
+    {
+      "id": "0",
+      "title": "Online Reputation",
+      "slika": "/img/portfolio/award1.jpg",
+      "description": "Strengthen the credibility of your brand online and positively influence purchase decisions. Review your online public perception of your brand, address any negative feedback which might damage your reputation or increase the dominant positioning of your operations online.",
+      "benefits": [
+        "Improve visibility",
+        "Imrove brand identity",
+        "Build trust and transparency",
+        "Increase stakeholder connectedness",
+        "Generate business insight"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Customer Excellence",
+      "slika": "/img/portfolio/award2.jpg",
+      "description": "Boost your excellence in the eyes of your customers. Have a team who embodies business acumen; has product/service knowledge, strong problem-solving and time management skills, and a friendly attitude. Award your accomplishments in the customer excellence area.",
+      "benefits": [
+        "Improve customer attraction and retention",
+        "Create favorable reputation",
+        "Gain business need insight",
+        "Create competitive advantage",
+        "Improve employee morale"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Digital Community Engagement",
+      "slika": "/img/portfolio/award3.jpg",
+      "description": "Engaging your community is the primary way to build a bigger business and gain new customers. Reviewing your online presence and rating your community engagement is of a pivotal importance today.",
+      "benefits": [
+        "Expand the online community",
+        "Promote the brand",
+        "Strengthen relationship with stakeholders",
+        "Promote environmental societal changes",
+        "Collect data for business improvement"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Corporate Social Responsibility",
+      "slika": "/img/portfolio/award4.jpg",
+      "description": "Be accountable for yourself, your stakeholders and the public by enhancing society and the environment, raising morale at the workplace, and promoting a positive brand. We would like to thank and honor your environmental, ethical, economic, and philanthropic endeavors.",
+      "benefits": [
+        "Impact philanthropy",
+        "Raise morale at the workplace",
+        "Promote ethical standards",
+        "Drive sustainable and environmental changes",
+        "Accelerate economic growth"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Happiness at Work",
+      "slika": "/img/portfolio/award5.jpg",
+      "description": "Empower your talent. Happiness at work is one of the major sources of positive outcomes in the workplace and a pathway to business success. With SGI’s sophisticated assessment system, identify the risk stress factor at your office and find strategies for improvement.",
+      "benefits": [
+        "Commit to well-being",
+        "Encourage innovation, creativity, and ownership",
+        "Promote happy and friendly work environment",
+        "Increase motivation",
+        "Strengthen employee loyalty"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Excellence",
+      "slika": "/img/portfolio/award6.jpg",
+      "description": "",
+      "benefits": [
+        "online reputation review",
+        "customer excellence",
+        "marketing management",
+        "community engagement",
+        "corporate social responsibility",
+        "media relations"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Excellence & Happiness at Work",
+      "slika": "/img/portfolio/award7.jpg",
+      "description": "",
+      "benefits": [
+        "online reputation review",
+        "customer excellence",
+        "marketing management",
+        "community engagement",
+        "corporate social responsibility",
+        "media relations"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Excellence & Happiness at Work",
+      "slika": "/img/portfolio/award8.jpg",
+      "description": "",
+      "benefits": [
+        "online reputation review",
+        "customer excellence",
+        "marketing management",
+        "community engagement",
+        "corporate social responsibility",
+        "media relations"
+      ]
+    }
+  ],
+  "Mission": [
+    {
+      "icon": "fa fa-bullseye",
+      "title": "Our Mission",
+      "text": "Our mission is to drive the global online business excellence and help organizations achieve happy and healthy client employee connectedness.",
+      "aos": "fade-down"
+    },
+    {
+      "icon": "fa fa-eye",
+      "title": "Our Vision",
+      "text": "Becoming the leading global awarding institute by promoting highest standards and raising capabilities in reputation management, customer excellence, and employee happiness.",
+      "aos": "fade-up"
+    }
+  ],
+  "About": {
+    "paragraph": "Swiss-German Institute was founded on the grounds of promoting and protecting company’s brand so it can be discovered, followed, recommended and even defended in a predominantly digital marketplace. SGI helps organizations globally ensure they manage their online reputation management right. Initially founded in Switzerland, with headquarters moved to Germany, SGI’s cause spans internationally; helping organizations improve their online reputation, brand management, customer service excellence, corporate social responsibility and happiness at work. SGI’s awarding criteria guides organizations on the right path to global reputation and customer service excellence.",
+    "Why": [
+      "Increase your global competitiveness",
+      "Establish customer excellence",
+      "Widen community engagement ",
+      "Analyse and learn competition"
+    ],
+    "Why2": [
+      "Manage crisis",
+      "Cement brand reputation",
+      "Improve corporate social responsibility",
+      "Make employees happy and safe"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-laptop",
+      "name": "Online reputation",
+      "text": "Strengthen the credibility of your brand online and positively influence purchase decisions. Review your online public perception of your brand, address any negative feedback which might damage your reputation or increase the dominant positioning of your operations online.",
+      "aos": "fade-up-left"
+    },
+    {
+      "icon": "fa fa-star",
+      "name": "Customer excellence",
+      "text": "Boost your excellence in the eyes of your customers. Have a team who embodies business acumen; has product/service knowledge, strong problem-solving and time management skills, and a friendly attitude. Award your accomplishments in the customer excellence area.",
+      "aos": "fade-up-right"
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "Digital Community Engagement",
+      "text": "Engaging your community is the primary way to build a bigger business and gain new customers. Reviewing your online presence and rating your community engagement is of a pivotal importance today.",
+      "aos": "fade-left"
+    },
+    {
+      "icon": "fa fa-smile-o",
+      "name": "Happiness at Work",
+      "text": "Empower your talent. Happiness at work is one of the major sources of positive outcomes in the workplace and a pathway to business success. With SGI’s sophisticated assessment system, identify the risk stress factor at your office and find strategies for improvement.",
+      "aos": "fade-right"
+    },
+    {
+      "icon": "fa fa-smile-o",
+      "name": "Corporate Social Responsibility",
+      "text": "Be accountable for yourself, your stakeholders and the public by enhancing society and the environment, raising morale at the workplace, and promoting a positive brand. We would like to thank and honor your environmental, ethical, economic, and philanthropic endeavors.",
+      "aos": "fade-up-left"
+    }
+  ],
+  "Footer": {
+    "address": "Dusseldorf ",
+    "phone": "+49 1111 1111",
+    "email": "info@sgi.com",
+    "facebook": "https://www.facebook.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "mail": "https://www.gmail.com/"
+  }
+}

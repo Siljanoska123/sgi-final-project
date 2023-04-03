@@ -1,0 +1,176 @@
+.navigation {
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    transition: all 0.8s;
+    padding: 15px;
+    background-color: #fff;
+    border-color: rgba(231, 231, 231, 0);
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    z-index: 1;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+.navigation .container {
+    display: flex;
+    
+}  
+
+.brand-name {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+
+}
+
+.navigation-menu {
+    margin-left: auto;
+}
+
+
+
+.navigation-menu ul {
+    display: flex;
+    padding: 0;
+}
+
+.navigation-menu li {
+    list-style-type: none;
+    margin: 0;
+    position: relative;
+}
+.navigation-menu li:hover {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    border-image-slice: 1;
+
+}
+
+.navigation-menu li a {
+    font-family: "Lato", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 2px;
+    border-radius: 0;
+    margin: 9px 20px 0;
+    display: block;
+    text-decoration: none;
+    width: 100%
+        /* text-decoration: none;
+    display: block;
+    width: 100%; */
+}
+
+.navigation-menu li a:hover,
+.navigation-menu li a:focus {
+    color: #777;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+.hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.hamburger:hover {
+    background-color: #2642af;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navigation-menu ul {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navigation-menu ul {
+
+        position: absolute;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 77px);
+        background-color: white;
+        border-top: 1px solid black;
+        z-index: 1;
+    }
+
+    .navigation-menu li {
+        text-align: left;
+        margin: 0;
+
+
+    }
+
+    .navigation-menu li a {
+        color: black;
+        width: 100%;
+    }
+
+    .navigation-menu li:hover {
+
+        border-bottom: 2px solid transparent;
+        border-image: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+        border-image-slice: 1;
+        content: "";
+        transition: width 0.2s;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navigation-menu.expanded ul {
+        display: block;
+    }
+}

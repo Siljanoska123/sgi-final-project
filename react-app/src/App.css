@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  z-index: 1;
+  /* overflow-x: hidden; */
+  overflow: hidden;
+  /* display: flex; */
+  /* !!!!!!!!! da se proveri display flex */
+
+  justify-content: space-between;
+}
+
+
+.container:before,
+.container:after,
+.row:after,
+.row:before {
+  display: table;
+  content: " ";
+
+
+}
+
+.container:after,
+.row:after {
+  clear: both;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.column {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 48%;
+}
+
+
+/* @media screen and (max-width: 400px) {
+    #mission {
+      padding: 20px;
+      width: 100%;
+    }
+  
+    #about,
+    #services,
+    #awards,
+    #contact,
+    #footer {
+      width: 100%;
+    }
+  } */
+
+@media screen and (max-width: 425px) {
+
+  #about,
+  #services,
+  #counter,
+  #mission,
+  #contact,
+  #footer,
+  #awards,
+  #singleAwards {
+    width: 100%;
+  }
+
+  .footer-column,
+  .column-contact,
+  .column-contact2,
+  .column {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+
+  .footer-column,
+  .column-contact,
+  .column-contact2,
+  .column {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (max-width:1070px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    /* padding: 4rem 2rem; */
+  }
+
+  .footer-column,
+  .column-contact,
+  .column-contact2,
+  .row .column {
+    width: 100%;
+    /* text-align: center; */
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+    width: 1170px;
+  }
+}
