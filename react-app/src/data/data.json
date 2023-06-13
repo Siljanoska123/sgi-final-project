@@ -93,11 +93,26 @@
       ],
       "TopicBenefits": "At SGG, we believe that conducting proper digital community engagement is crucial for the success of any business that wants to thrive in the digital age. To help our clients achieve this, we've developed a 5-step methodology that ensures a thorough analysis of their online communities and effective engagement with their target audience. Here are the key steps we follow:",
       "benefits": [
-        "Define your community: We work with our clients to identify their target audience and define the scope of their community. This includes analyzing their demographics, behavior, interests, and online activity to ensure we understand who they are and what they want.",
-        "Choose the right platforms: We analyze which social media channels and online platforms are most relevant to our clients' community and develop a strategy to engage with them effectively. This includes identifying the best times to post, the type of content to share, and the appropriate tone and messaging.",
-        "Monitor and measure engagement: We use a range of analytics tools to monitor and measure our clients' digital community engagement. This allows us to track their progress, identify areas for improvement, and adjust our approach as needed.",
-        "Respond and engage: We actively engage with our clients' online communities by responding to comments, messages, and mentions. We also use tactics such as contests, polls, and social listening to encourage interaction and build stronger relationships.",
-        "Evaluate and refine: We conduct regular evaluations of our clients' digital community engagement to measure the effectiveness of our approach and identify opportunities for refinement. This allows us to continuously improve and adapt to the ever-changing digital landscape."
+        {
+          "napred": "Define your community:",
+          "pozadi": "We work with our clients to identify their target audience and define the scope of their community. This includes analyzing their demographics, behavior, interests, and online activity to ensure we understand who they are and what they want."
+        },
+        {
+          "napred": "Choose the right platforms:",
+          "pozadi": "We analyze which social media channels and online platforms are most relevant to our clients' community and develop a strategy to engage with them effectively. This includes identifying the best times to post, the type of content to share, and the appropriate tone and messaging."
+        },
+        {
+          "napred": "Monitor and measure engagement:",
+          "pozadi": "We use a range of analytics tools to monitor and measure our clients' digital community engagement. This allows us to track their progress, identify areas for improvement, and adjust our approach as needed."
+        },
+        {
+          "napred": "Respond and engage:",
+          "pozadi": "We actively engage with our clients' online communities by responding to comments, messages, and mentions. We also use tactics such as contests, polls, and social listening to encourage interaction and build stronger relationships."
+        },
+        {
+          "napred": "Evaluate and refine:",
+          "pozadi": "We conduct regular evaluations of our clients' digital community engagement to measure the effectiveness of our approach and identify opportunities for refinement. This allows us to continuously improve and adapt to the ever-changing digital landscape."
+        }
       ]
     },
     {
@@ -115,11 +130,26 @@
       ],
       "TopicBenefits": "We are dedicated to improving society and the environment, boosting workplace morale, and promoting a positive brand. To assess your company's CSR status, we have developed the following five key steps:",
       "benefits": [
-        "Define the criteria: Determine the criteria and standards for the corporate social responsibility award, which may include environmental sustainability, social impact, philanthropy, ethical practices, and more.",
-        "Conduct research: Research and analyze the performance of the companies being considered for the award. This may include reviewing their sustainability reports, social impact initiatives, community engagement activities, and other relevant data.",
-        "Evaluate the impact: Evaluate the impact of the companies' corporate social responsibility efforts on the environment, society, and their stakeholders. This may involve assessing their carbon footprint, employee satisfaction, community involvement, and more.",
-        "Consider industry benchmarks: Compare the companies' corporate social responsibility efforts to industry benchmarks and best practices. This can help provide context and identify areas for improvement.",
-        "Engage stakeholders: Engage with stakeholders, including employees, customers, and communities, to gather feedback and insights on the companies' corporate social responsibility efforts. This can provide a more comprehensive understanding of the impact of their initiatives and inform the award selection process."
+        {
+          "napred": "Define the criteria:",
+          "pozadi": "Determine the criteria and standards for the corporate social responsibility award, which may include environmental sustainability, social impact, philanthropy, ethical practices, and more."
+        },
+        {
+          "napred": "Conduct research: ",
+          "pozadi": "Research and analyze the performance of the companies being considered for the award. This may include reviewing their sustainability reports, social impact initiatives, community engagement activities, and other relevant data."
+        },
+        {
+          "napred": "Evaluate the impact:",
+          "pozadi": "Evaluate the impact of the companies' corporate social responsibility efforts on the environment, society, and their stakeholders. This may involve assessing their carbon footprint, employee satisfaction, community involvement, and more."
+        },
+        {
+          "napred": "Consider industry benchmarks: ",
+          "pozadi": "Compare the companies' corporate social responsibility efforts to industry benchmarks and best practices. This can help provide context and identify areas for improvement."
+        },
+        {
+          "napred": "Engage stakeholders:",
+          "pozadi": "Engage with stakeholders, including employees, customers, and communities, to gather feedback and insights on the companies' corporate social responsibility efforts. This can provide a more comprehensive understanding of the impact of their initiatives and inform the award selection process."
+        }
       ]
     },
     {
@@ -137,11 +167,26 @@
       ],
       "TopicBenefits": "At our company, we take the evaluation of happiness at work seriously. To ensure that we award companies that truly deserve it, we follow a rigorous 5-step analysis process.",
       "benefits": [
-        "Identify key performance indicators: Define the metrics that measure happiness at work, such as employee engagement, satisfaction, and well-being.",
-        "Analyze employee feedback: Gather feedback from employees through surveys, focus groups, or interviews to understand their perceptions of happiness at work.",
-        "Assess workplace policies and practices: Evaluate company policies and practices that impact employee happiness, such as work-life balance, recognition programs, and leadership effectiveness.",
-        "Benchmark against industry standards: Compare the company's happiness at work metrics against industry standards and best practices to understand where it stands.",
-        "Verify the results: Validate the analysis and results through independent verification to ensure objectivity and accuracy."
+        {
+          "napred": "Identify key performance indicators:",
+          "pozadi": "Define the metrics that measure happiness at work, such as employee engagement, satisfaction, and well-being."
+        },
+        {
+          "napred": "Analyze employee feedback:",
+          "pozadi": "Gather feedback from employees through surveys, focus groups, or interviews to understand their perceptions of happiness at work."
+        },
+        {
+          "napred": "Assess workplace policies and practices:",
+          "pozadi": "Evaluate company policies and practices that impact employee happiness, such as work-life balance, recognition programs, and leadership effectiveness."
+        },
+        {
+          "napred": "Benchmark against industry standards:",
+          "pozadi": "Compare the company's happiness at work metrics against industry standards and best practices to understand where it stands."
+        },
+        {
+          "napred": "Verify the results:",
+          "pozadi": "Validate the analysis and results through independent verification to ensure objectivity and accuracy."
+        }
       ]
     }
   ],
