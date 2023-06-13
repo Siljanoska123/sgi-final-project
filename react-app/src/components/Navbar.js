@@ -9,7 +9,7 @@ function Navbar() {
         <nav className="navigation sticky" >
             <div className="container">
                 <a href="/" className="brand-name">
-                    SGI
+                    SGG
                 </a>
                 <button className="hamburger"
                     onClick={() => {

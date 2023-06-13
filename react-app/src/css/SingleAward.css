@@ -1,110 +1,291 @@
-.wrapper {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-.left{
-  width: 70%;
-  height: 100%;
-  top: 0;
-  transform: skewX(-8deg);
-  /* overflow: hidden; */
-}
-
-.right {
-  width: 40%;
-  height: 100%;
-  top: 0;
-  transform: skewX(-8deg);
-  overflow: hidden;
-}
-
-.left {
-  position: relative;
-  /* left: -5%; */
+.cover-intro {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 
-
-padding-right: 75px;
-}
-.right {
-  position: absolute;
-  right: -5%;
-}
-.left .inner,
-.right .inner {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: skewX(8deg);
-}
-/* .left .inner {
-  background-image: url("../images/about.jpg");
-  margin-left: 9%;
-} */
-.right .inner {
-  margin-left: -9%;
 
 }
 
-#singleAwards {
-  padding: 100px 0;
+.banner-one .shape1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .4;
+    width: 10%;
+
+}
+
+.shape1 {
+    visibility: visible;
+    animation-duration: 3500ms;
+    animation-delay: 500ms;
+
 }
 
 
-/* leva strana */
+.awardslika {
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
 
-.single-award-title{
-  margin-top: 45px;
-  position: relative;
-  margin-bottom: 100px;
-  padding-bottom: 1px;
+    visibility: visible;
+    border-radius: 30% 70% 0% 100% / 24% 25% 75% 76%;
+    padding-top: 0px;
+
+
+}
+
+.awardContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.awardContainer .row {
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+
+}
+
+.banner-one__inner-box {
+    position: relative;
+    display: block;
+
+
+}
+
+.banner-one__big-title {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    color: rgba(46, 46, 54, .03);
+    font-size: 400px;
+    line-height: .8em;
+    font-weight: 800;
+    text-transform: capitalize;
+    z-index: -1;
+}
+
+.banner-one__content {
+    max-width: 600px;
+    width: 100%;
+    padding-right: 100px;
+}
+
+.banner-one__content,
+.banner-one__inner-box {
+    position: relative;
+    display: block;
+}
+
+.banner-one__content .section-title {
+    margin-bottom: 28px;
+}
+
+.section-title {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+
+}
+
+
+.section-title__tagline {
+    position: relative;
+    display: block;
+    margin-bottom: 17px;
+}
+
+
+.section-title__tagline span.left {
+    margin-right: 15px;
+}
+
+
+.single-award-title {
+    margin-top: 45px;
+    position: relative;
+    margin-bottom: 100px;
+    padding-bottom: 1px;
+
+}
+
+.single-award-title h2 {
+    font-size: 100px;
+
 }
 
 .single-award-title h2::after {
-  position: absolute;
-  content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 0;
 }
 
 
+
+
+@media only screen and (min-width:375px) and (max-width: 991px) {
+
+    .banner-one .shape1,
+    .banner-one__big-title {
+        display: none;
+    }
+
+    .awardContainer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) and (max-width: 991px) {
+    .banner-one__content {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width: 991px) {
+    .single-award-title h2 {
+        font-size: 45px;
+        /* color: red; */
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    #singleAwards .awardContainer {
+        display: flex;
+
+    }
+}
+
+@media (min-width: 768px) {
+
+    .cover-intro {
+        max-width: 720px;
+    }
+}
+
+
+/* za opisot */
+
+.inner {
+    width: 100%;
+    height: 100%;
+
+}
+
+.award-deck {
+    width: 70%;
+}
+
 .award-deck h3 {
-  font-weight: 500;
-  padding: 5px 10px;
-  margin-top: 80px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-bottom: 25px;
-  
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+
 }
 
 .award-deck p {
-  text-align: justify;
-  padding-right: 50PX;
-  padding-left: 25px;
-  line-height: 25px;
+    text-align: justify;
+    padding-right: 50PX;
+    padding-left: 25px;
+    line-height: 25px;
 }
+
 
 
 .award-deck ol {
-  text-align: justify;
-  padding-right: 50PX;
-  padding-left: 25px;
-  line-height: 25px;
+    text-align: justify;
+    padding-right: 50PX;
+    padding-left: 25px;
+    line-height: 25px;
 }
 
 .award-deck li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 11px;
-  font-weight: 300;
-  padding-right: 8px;
+    content: "\f1ea";
+    font-family: "FontAwesome";
+    color: #5ca9fb;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+
 }
 
+
+
+.award-deck2 {
+    width: 100%;
+}
+
+.award-deck2 h3 {
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+/* 
+.award-deck2 p {
+    text-align: justify;
+    padding-right: 50PX;
+    padding-left: 25px;
+    line-height: 25px;
+} */
+
+
+/* za slika */
+
+
+/* 
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-one__banner-img {
+      top: 0;
+      right: -350px;
+    }
+  }
+  
+  .banner-one__banner-img {
+    position: absolute;
+  
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+  .banner-one__banner-img img {
+      width: 61%;
+  }}
+  
+  .banner-one__banner-img img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle
+  }
+  
+  
+  .section-title__tagline span.left, .section-title__tagline span.right {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: var(--thm-base);
+    top: -5px;
+  } */

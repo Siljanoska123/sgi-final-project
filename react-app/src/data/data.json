@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Swiss-German Institute",
+    "title": "Swiss-German Group",
     "paragraph": "Excellence Award for Your Online Business Reputation"
   },
   "Awards": [
@@ -8,107 +8,140 @@
       "id": "0",
       "title": "Online Reputation",
       "slika": "/img/portfolio/award1.jpg",
-      "description": "Strengthen the credibility of your brand online and positively influence purchase decisions. Review your online public perception of your brand, address any negative feedback which might damage your reputation or increase the dominant positioning of your operations online.",
+      "description": "Enhance the credibility of your brand in the online sphere and effectively sway consumer purchasing decisions. Conduct a comprehensive assessment of your brand's online reputation and take necessary steps to mitigate any negative feedback that may tarnish your image or amplify your online presence.",
+      "TopicKeySteps": "Assessing and improving your online reputation involves the following five key steps:",
+      "keySteps": [
+        "Online monitoring: Track mentions of your company name, products, and executives across various channels, including social media, review sites, and news websites.",
+        "Sentiment analysis: Use tools to determine the overall tone of online conversations about your company. This involves analyzing the language used in online comments and reviews to identify whether the sentiment is positive, negative, or neutral.",
+        "Review analysis: Identify common themes and issues that customers are raising in online reviews. This helps you address any concerns and improve your products or services.",
+        "Competitor analysis: Compare your online reputation with your competitors to see where you stand in terms of reputation. This helps you identify areas where you can differentiate yourself and improve your reputation.",
+        "Social media analysis: Analyze your social media channels to see how engaged your audience is and how you respond to comments and questions. Look for opportunities to create content that resonates with your target audience."
+      ],
+      "TopicBenefits": "There are five key benefits to improving your online reputation:",
       "benefits": [
-        "Improve visibility",
-        "Imrove brand identity",
-        "Build trust and transparency",
-        "Increase stakeholder connectedness",
-        "Generate business insight"
+        {
+          "napred": "Improved visibility:",
+          "pozadi": "By actively managing your online reputation, you can increase your visibility and reach a wider audience."
+        },
+        {
+          "napred": "Enhanced brand identity:",
+          "pozadi": "A positive online reputation can help you establish a strong brand identity and differentiate yourself from your competitors."
+        },
+        {
+          "napred": "Increased trust and transparency:",
+          "pozadi": "A transparent and trustworthy online presence can help you build trust with your customers and stakeholders."
+        },
+        {
+          "napred": "Stronger stakeholder connectedness:",
+          "pozadi": "By engaging with your stakeholders online, you can foster stronger relationships and increase loyalty"
+        },
+        {
+          "napred": "Valuable business insights: ",
+          "pozadi": "By monitoring and analyzing your online reputation, you can gain valuable insights into your customers' opinions and preferences, which can inform your business decisions."
+        }
       ]
     },
     {
       "id": "1",
       "title": "Customer Excellence",
       "slika": "/img/portfolio/award2.jpg",
-      "description": "Boost your excellence in the eyes of your customers. Have a team who embodies business acumen; has product/service knowledge, strong problem-solving and time management skills, and a friendly attitude. Award your accomplishments in the customer excellence area.",
+      "description": "To build customer loyalty and enhance your reputation, prioritize delivering excellent customer service with a team that has strong business acumen, product knowledge, and problem-solving skills. Recognize and reward excellence in customer service to reinforce your commitment to exceptional experiences. ",
+      "TopicKeySteps": "To achieve customer excellence, it's important to assess your current practices and make improvements where necessary. We've identified five key steps to help you on this journey:",
+      "keySteps": [
+        "Conduct online monitoring to track mentions of your company name, products, and executives across various channels, including social media, review sites, and news websites. This will give you insight into what your customers are saying about you online.",
+        "Utilize sentiment analysis tools to determine the overall tone of online conversations about your company. By analyzing the language used in online comments and reviews, you can identify whether the sentiment is positive, negative, or neutral, and take appropriate action.",
+        "Analyze reviews to identify common themes and issues that customers are raising. This helps you address any concerns and improve your products or services.",
+        "Conduct competitor analysis to see where they stand in terms of customer excellence. This helps you identify areas where you can differentiate yourself and improve your customer service.",
+        "Analyze your social media channels to see how engaged your audience is and how they respond to comments and questions. This allows you to identify opportunities to create content that resonates with your target audience."
+      ],
+      "TopicBenefits": "Properly implementing customer excellence can result in a variety of benefits for our clients, including:",
       "benefits": [
-        "Improve customer attraction and retention",
-        "Create favorable reputation",
-        "Gain business need insight",
-        "Create competitive advantage",
-        "Improve employee morale"
+        {
+          "napred": "Build a favorable reputation:",
+          "pozadi": "Delivering outstanding customer service can enhance your brand image and increase customer loyalty."
+        },
+        {
+          "napred": "Gain business insights:",
+          "pozadi": "By interacting with customers and listening to their needs and feedback, you can gain valuable insights to inform your business strategies."
+        },
+        {
+          "napred": "Create a competitive advantage:",
+          "pozadi": "Providing exceptional customer experiences can set you apart from competitors and attract more customers."
+        },
+        {
+          "napred": "Boost employee morale: ",
+          "pozadi": "A customer-centric approach can improve employee satisfaction and motivation, leading to better performance and retention."
+        },
+        {
+          "napred": "Increase revenue: ",
+          "pozadi": "Satisfied customers are more likely to make repeat purchases, recommend your business to others, and generate positive word-of-mouth advertising."
+        }
       ]
     },
     {
       "id": "2",
       "title": "Digital Community Engagement",
       "slika": "/img/portfolio/award3.jpg",
-      "description": "Engaging your community is the primary way to build a bigger business and gain new customers. Reviewing your online presence and rating your community engagement is of a pivotal importance today.",
+      "description": "Active community engagement is the cornerstone of business growth and customer acquisition. Therefore, it is crucial to assess your online presence and measure the level of community engagement you have achieved. Remember to engage with your community consistently and proactively to achieve your business goals.",
+      "TopicKeySteps": "By conducting proper digital community engagement, our clients can experience the following benefits:",
+      "keySteps": [
+        "Expand their online community and reach a wider audience, which can lead to increased brand awareness and customer engagement.",
+        "Promote their brand through effective communication and interaction with their community members.",
+        "Strengthen relationships with stakeholders, including customers, partners, and employees, by listening to their feedback and addressing their concerns.",
+        "Promote environmental and societal changes by leveraging the power of their community to drive positive social impact and change.",
+        "Collect valuable data and insights from their community members, which can inform business decisions and improve overall performance."
+      ],
+      "TopicBenefits": "At SGG, we believe that conducting proper digital community engagement is crucial for the success of any business that wants to thrive in the digital age. To help our clients achieve this, we've developed a 5-step methodology that ensures a thorough analysis of their online communities and effective engagement with their target audience. Here are the key steps we follow:",
       "benefits": [
-        "Expand the online community",
-        "Promote the brand",
-        "Strengthen relationship with stakeholders",
-        "Promote environmental societal changes",
-        "Collect data for business improvement"
+        "Define your community: We work with our clients to identify their target audience and define the scope of their community. This includes analyzing their demographics, behavior, interests, and online activity to ensure we understand who they are and what they want.",
+        "Choose the right platforms: We analyze which social media channels and online platforms are most relevant to our clients' community and develop a strategy to engage with them effectively. This includes identifying the best times to post, the type of content to share, and the appropriate tone and messaging.",
+        "Monitor and measure engagement: We use a range of analytics tools to monitor and measure our clients' digital community engagement. This allows us to track their progress, identify areas for improvement, and adjust our approach as needed.",
+        "Respond and engage: We actively engage with our clients' online communities by responding to comments, messages, and mentions. We also use tactics such as contests, polls, and social listening to encourage interaction and build stronger relationships.",
+        "Evaluate and refine: We conduct regular evaluations of our clients' digital community engagement to measure the effectiveness of our approach and identify opportunities for refinement. This allows us to continuously improve and adapt to the ever-changing digital landscape."
       ]
     },
     {
       "id": "3",
       "title": "Corporate Social Responsibility",
       "slika": "/img/portfolio/award4.jpg",
-      "description": "Be accountable for yourself, your stakeholders and the public by enhancing society and the environment, raising morale at the workplace, and promoting a positive brand. We would like to thank and honor your environmental, ethical, economic, and philanthropic endeavors.",
+      "description": "We believe in being accountable not only to ourselves, but also to our stakeholders and the public. That's why we're committed to enhancing society and the environment, raising morale at the workplace, and promoting a positive brand. We recognize and appreciate the efforts of organizations that prioritize environmental sustainability, ethical business practices, economic prosperity, and philanthropy. ",
+      "TopicKeySteps": "Here are five key benefits that companies can gain by receiving awards in corporate social responsibility from our company:",
+      "keySteps": [
+        "Increase impact philanthropy: Our awards recognize and honor companies that have made significant contributions to the betterment of society and the environment through their philanthropic efforts.",
+        "Boost employee morale: Companies that receive recognition for their commitment to CSR often see a boost in employee morale and engagement, leading to improved productivity and retention rates.",
+        "Promote ethical standards: Our awards showcase companies that have demonstrated a strong commitment to ethical practices and standards, inspiring others to follow suit and raising the bar for ethical behavior in the industry.",
+        "Drive sustainable and environmental changes: By recognizing companies that are making strides in sustainability and environmental stewardship, we are encouraging more companies to take action and make a positive impact on the planet.",
+        "Accelerate economic growth: Our awards highlight companies that are not only making a positive impact on society and the environment, but also contributing to economic growth and development through their CSR initiatives. This can inspire other companies to invest in similar initiatives, leading to a more sustainable and prosperous future for all."
+      ],
+      "TopicBenefits": "We are dedicated to improving society and the environment, boosting workplace morale, and promoting a positive brand. To assess your company's CSR status, we have developed the following five key steps:",
       "benefits": [
-        "Impact philanthropy",
-        "Raise morale at the workplace",
-        "Promote ethical standards",
-        "Drive sustainable and environmental changes",
-        "Accelerate economic growth"
+        "Define the criteria: Determine the criteria and standards for the corporate social responsibility award, which may include environmental sustainability, social impact, philanthropy, ethical practices, and more.",
+        "Conduct research: Research and analyze the performance of the companies being considered for the award. This may include reviewing their sustainability reports, social impact initiatives, community engagement activities, and other relevant data.",
+        "Evaluate the impact: Evaluate the impact of the companies' corporate social responsibility efforts on the environment, society, and their stakeholders. This may involve assessing their carbon footprint, employee satisfaction, community involvement, and more.",
+        "Consider industry benchmarks: Compare the companies' corporate social responsibility efforts to industry benchmarks and best practices. This can help provide context and identify areas for improvement.",
+        "Engage stakeholders: Engage with stakeholders, including employees, customers, and communities, to gather feedback and insights on the companies' corporate social responsibility efforts. This can provide a more comprehensive understanding of the impact of their initiatives and inform the award selection process."
       ]
     },
     {
       "id": "4",
       "title": "Happiness at Work",
       "slika": "/img/portfolio/award5.jpg",
-      "description": "Empower your talent. Happiness at work is one of the major sources of positive outcomes in the workplace and a pathway to business success. With SGI’s sophisticated assessment system, identify the risk stress factor at your office and find strategies for improvement.",
+      "description": "At SGI, we believe that happiness at work is crucial for both employee well-being and business success. That's why we're dedicated to recognizing and rewarding companies that prioritize happiness in the workplace. Using our advanced assessment system, we can help you identify potential stressors in your office and develop strategies for improvement, empowering your talent and driving positive outcomes for your business.",
+      "TopicKeySteps": "Here are five major benefits that companies can enjoy upon receiving Happiness at Work Award from our company:",
+      "keySteps": [
+        "Enhance employee well-being: Companies that prioritize happiness at work promote physical and mental well-being among their employees, leading to improved health, reduced absenteeism, and increased productivity.",
+        "Foster innovation and creativity: A happy and positive work environment encourages employees to be more innovative and creative, leading to new ideas and solutions that drive business growth and success.",
+        "Build a positive workplace culture: Promoting happiness at work creates a friendly and welcoming workplace culture where employees feel valued, appreciated, and supported, leading to stronger bonds between team members and a positive reputation for the company.",
+        "Boost motivation and engagement: When employees are happy and engaged in their work, they are more motivated to perform at their best and go above and beyond to contribute to the success of the company.",
+        "Increase employee loyalty and retention: Companies that prioritize happiness at work demonstrate a commitment to their employees' well-being, which leads to higher levels of employee loyalty and retention, resulting in cost savings for the company and a more stable workforce."
+      ],
+      "TopicBenefits": "At our company, we take the evaluation of happiness at work seriously. To ensure that we award companies that truly deserve it, we follow a rigorous 5-step analysis process.",
       "benefits": [
-        "Commit to well-being",
-        "Encourage innovation, creativity, and ownership",
-        "Promote happy and friendly work environment",
-        "Increase motivation",
-        "Strengthen employee loyalty"
-      ]
-    },
-    {
-      "id": "5",
-      "title": "Excellence",
-      "slika": "/img/portfolio/award6.jpg",
-      "description": "",
-      "benefits": [
-        "online reputation review",
-        "customer excellence",
-        "marketing management",
-        "community engagement",
-        "corporate social responsibility",
-        "media relations"
-      ]
-    },
-    {
-      "id": "6",
-      "title": "Excellence & Happiness at Work",
-      "slika": "/img/portfolio/award7.jpg",
-      "description": "",
-      "benefits": [
-        "online reputation review",
-        "customer excellence",
-        "marketing management",
-        "community engagement",
-        "corporate social responsibility",
-        "media relations"
-      ]
-    },
-    {
-      "id": "7",
-      "title": "Excellence & Happiness at Work",
-      "slika": "/img/portfolio/award8.jpg",
-      "description": "",
-      "benefits": [
-        "online reputation review",
-        "customer excellence",
-        "marketing management",
-        "community engagement",
-        "corporate social responsibility",
-        "media relations"
+        "Identify key performance indicators: Define the metrics that measure happiness at work, such as employee engagement, satisfaction, and well-being.",
+        "Analyze employee feedback: Gather feedback from employees through surveys, focus groups, or interviews to understand their perceptions of happiness at work.",
+        "Assess workplace policies and practices: Evaluate company policies and practices that impact employee happiness, such as work-life balance, recognition programs, and leadership effectiveness.",
+        "Benchmark against industry standards: Compare the company's happiness at work metrics against industry standards and best practices to understand where it stands.",
+        "Verify the results: Validate the analysis and results through independent verification to ensure objectivity and accuracy."
       ]
     }
   ],
@@ -122,12 +155,12 @@
     {
       "icon": "fa fa-eye",
       "title": "Our Vision",
-      "text": "Becoming the leading global awarding institute by promoting highest standards and raising capabilities in reputation management, customer excellence, and employee happiness.",
+      "text": "We envision becoming a top global group that sets and promotes the highest standards for reputation management, customer excellence, and employee happiness, empowering organizations to thrive in the digital age.",
       "aos": "fade-up"
     }
   ],
   "About": {
-    "paragraph": "Swiss-German Institute was founded on the grounds of promoting and protecting company’s brand so it can be discovered, followed, recommended and even defended in a predominantly digital marketplace. SGI helps organizations globally ensure they manage their online reputation management right. Initially founded in Switzerland, with headquarters moved to Germany, SGI’s cause spans internationally; helping organizations improve their online reputation, brand management, customer service excellence, corporate social responsibility and happiness at work. SGI’s awarding criteria guides organizations on the right path to global reputation and customer service excellence.",
+    "paragraph": "Swiss-German Group was established with the mission of supporting businesses in building and safeguarding their brand presence in the digital marketplace. With a focus on online reputation management, SGG works with organizations worldwide to ensure they have the right tools and strategies to manage their online reputation effectively. Originally founded and headquartered in Germany, SGG has a global reach and assists organizations in enhancing their online reputation, improving brand management, providing exceptional customer service, fostering corporate social responsibility, and promoting employee happiness. Our award-winning criteria serve as a roadmap to guide organizations towards achieving global recognition for their reputation and customer service excellence.",
     "Why": [
       "Increase your global competitiveness",
       "Establish customer excellence",
