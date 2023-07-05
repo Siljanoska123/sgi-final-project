@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
 import '../css/Navbar.css'
-import logo from '../images/logo.jpg'
+import logo from '../images/logo.png'
+
 
 function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
-    
+
     return (
         <nav className="navigation sticky" >
             <div className="container">
                 <a href="/" className="brand-name">
-                   SGG
+                    <img src={logo} />
                 </a>
                 <button className="hamburger"
                     onClick={() => {
