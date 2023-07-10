@@ -1,25 +1,59 @@
 
-import React, { useState } from 'react'
+import React, { useState, useRef, setState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import JsonData from '../data/data.json'
 import '../css/SingleAward.css'
 import '../css/containerAward.css'
-import aboutus from '../images/about.jpg'
+import emailjs from '@emailjs/browser';
+import { useNavigate } from "react-router-dom";
+
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
+
 
 export const SingleAward = (props) => {
     const { awardId } = useParams();
     const award = JsonData.Awards.find((award) => award.id === awardId);
     const { slika, title, description, keySteps, TopicBenefits, benefits, TopicKeySteps, id } = award;
-    const [showDescription, setShowDescription] = useState(false);
-
-    const [showBenefits, setShowBenefits] = useState(false);
 
     // https://stackoverflow.com/questions/45497597/vertical-split-screen-custom-shape
 
+    const [show, setShow] = useState(false);
 
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    let navigate = useNavigate();
+    // za formata od modalot
+
+
+    const publicKey = '1'
+    const serviceID = '2'
+    const templateID = '3'
+    // const clearState = () => setState({ ...initialState });
+
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(serviceID, templateID, form.current, publicKey)
+            .then((result) => {
+                console.log(result.text);
+
+                alert('Message Sent Successfully ')
+                navigate('/awards')
+                // clearState();
+            }, (error) => {
+                console.log(error.text);
+                console.log('Try again!');
+            });
+    };
 
     return (
         <div >
+
             <header id='header'>
                 <div className='cover-intro'>
                     <section className='banner-one'>
@@ -49,8 +83,6 @@ export const SingleAward = (props) => {
                         </div>
                     </section>
                 </div>
-
-
 
                 <div className='container'>
 
@@ -84,54 +116,68 @@ export const SingleAward = (props) => {
                                     )
                                 })}
 
-
                             </ol>
 
                         </div>
-
-
-
-
-
-
-                        {/* <div className='award-deck'>
-                            <h3>{TopicKeySteps}</h3>
-                            <ol>
-                                {keySteps.map(item => {
-                                    return (
-                                        <li>{item}</li>
-                                    )
-                                })}
-                            </ol>
-                        </div>
-
-
-                        <div className='award-deck'>
-                            <h3>{TopicBenefits}</h3>
-                            <ol>
-                                {benefits.map(item => {
-                                    return (
-                                        <li>{item}</li>
-                                    )
-                                })}
-                            </ol>
-                        </div> */}
-
-
-
-
                     </div>
                 </div>
+
+                {/* MODAL */}
+
                 <div className='container'>
-                    {/* <ul id="menu">
-                        <li> <a href="#" >Item 1</a> </li>
-                        <li> <a href="#">Item 2</a> </li>
-                        <li class="highlighted"> <a href="#">Item 3</a> </li>
-                        <li> <a href="#">Item 4</a> </li>
-                        <li> <a href="#">Item 5</a> </li>
+                    <div className="inner">
 
-                    </ul> */}
+                        <div className='award-deck3' >
 
+                            <Button className="loHemt" variant="primary" onClick={handleShow}>
+                                <svg viewBox="0 0 512 512" color="currentColor" mr="12px" xmlns="http://www.w3.org/2000/svg" class="sc-1f4f182b-0 dndkUl">
+
+                                    <path d="M336 176h40a40 40 0 0140 40v208a40 40 0 01-40 40H136a40 40 0 01-40-40V216a40 40 0 0140-40h40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="30">
+                                    </path>
+                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M176 272l80 80 80-80M256 48v288">
+                                    </path>
+                                </svg>
+                                <div>DOWNLOAD BROCHURE</div>
+
+                            </Button>
+
+                            <Modal
+                                size="lg"
+                                show={show} onHide={handleClose}>
+                                <Modal.Header closeButton>
+                                    <Modal.Title>{title}</Modal.Title>
+                                </Modal.Header>
+                                <Modal.Body >
+
+                                    <div className='modal_form'>
+
+                                        <form ref={form} onSubmit={sendEmail}>
+                                            <label for='user_name'>Full Name</label>
+                                            <input type="text" name="user_name" id="user_name" placeholder='Full name'>
+                                            </input>
+                                            <label for='user_email'>Email</label>
+                                            <input type="email" name="user_email" id='user_email' placeholder='Email' required>
+                                            </input>
+                                            <label for='message'>Message</label>
+                                            <textarea type='message' readOnly name="message" id='message' placeholder='Your message'>{title}
+                                            </textarea>
+                                            <button onClick={handleClose} type='submit' id='button' value="Send email" className='submit-btn'>
+                                                GET BROCHURE
+                                            </button>
+                                        </form>
+
+                                    </div>
+                                </Modal.Body>
+                                <Modal.Footer>
+
+                                    {/* <Button variant="primary" onClick={handleClose}>
+                                        GET BROCHURE
+                                    </Button> */}
+                                </Modal.Footer>
+                            </Modal>
+
+                        </div>
+                    </div>
 
 
                 </div>
@@ -139,6 +185,8 @@ export const SingleAward = (props) => {
         </div>
     )
 }
+
+
 
 
 

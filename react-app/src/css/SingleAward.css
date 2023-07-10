@@ -230,7 +230,7 @@
 
 
 .award-deck2 {
-    width: 100%;
+    width: 70%;
 }
 
 .award-deck2 h3 {
@@ -243,6 +243,122 @@
 
 }
 
+.award-deck3 {
+
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* za download brochur */
+
+
+
+@media screen and (min-width: 576px) {
+    .loHemt {
+        padding-left: 56px;
+        padding-right: 16px;
+    }
+}
+
+.loHemt {
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Roboto, Almarai, system-ui, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 36px;
+    padding: 0px 0px 0px 12px;
+    border-radius: 1px;
+    background-color: transparent;
+    border: 0px;
+    color: rgb(25, 25, 25);
+    letter-spacing: 1.4px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.dndkUl {
+    align-self: center;
+    fill: currentcolor;
+    color: currentcolor;
+    flex-shrink: 0;
+    margin-right: 12px;
+    width: 24px;
+}
+
+/* MODAL */
+
+.modal_form{
+    padding: 2.5em;
+}
+
+.modal_form form {
+ 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modal_form input,
+.modal_form textarea {
+    border: none;
+    padding: 0.8em;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0.5em 0 1em 0;
+    font-size: 1.1em;
+    background: #eee;
+    color: #969696;
+}
+
+.modal_form label {
+    color: #a0a0a0;
+}
+
+.modal_form textarea {
+    resize: none;
+    height: 8em;
+
+}
+
+.modal_form input:focus,
+.modal_form textarea:focus {
+    outline: none;
+}
+
+.modal_form input::placeholder,
+.modal_form textarea::placeholder {
+    color: #bababa;
+}
+
+.modal_form button{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.8em;
+    background-color: #ff742e;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.modal_form button:hover {
+    background-color: #e16628;
+
+}
+
+@media screen and (max-width: 500px) {
+    .modal_form {
+        font-size: 14px;
+
+    }
+    
+}
 /* 
 .award-deck2 p {
     text-align: justify;

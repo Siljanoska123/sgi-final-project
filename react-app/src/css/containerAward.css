@@ -24,6 +24,7 @@
 .steps li p {
     font-weight: normal;
     padding-top: 20px;
+    padding-right: 30px;
 }
 
 
@@ -120,7 +121,7 @@
     padding: 8px;
     height: 40px;
     width: 40px;
-    background-color: #5ca9fb;
+    background-color: #6372ff ;
     text-align: center;
     color: white;
     font-size: 110%;

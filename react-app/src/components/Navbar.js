@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../css/Navbar.css'
 import logo from '../images/logo.png'
-
+import logo2 from '../images/logo2.png'
 
 function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -11,7 +11,7 @@ function Navbar() {
         <nav className="navigation sticky" >
             <div className="container">
                 <a href="/" className="brand-name">
-                    <img src={logo} />
+                    <img src={logo2} />
                 </a>
                 <button className="hamburger"
                     onClick={() => {

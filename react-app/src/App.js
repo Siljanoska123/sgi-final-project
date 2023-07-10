@@ -8,8 +8,8 @@ import { Footer } from './components/Footer'
 import { Footer2 } from './components/Footer2'
 import {AwardsT} from './components/Awards'
 import {SingleAward} from './components/SingleAward'
-import { Marga } from './components/marga'
-import { Navigacija } from './components/navigacija'
+
+
 
 // import Aos from 'aos'
 // import 'aos/dist/aos.css'
@@ -50,8 +50,8 @@ function App() {
         <Route path="/awards" element={<AwardsT data={landingPageData.Awards} />} />
 
        <Route path='/awards/:awardId' element={<SingleAward/>} /> 
-       <Route path='/marga' element={<Marga/>} /> 
-       <Route path='/navigacija' element={<Navigacija/>} /> 
+      
+      
       </Routes>
       <Footer data={landingPageData.Footer} />
       <Footer2 />

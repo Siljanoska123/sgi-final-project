@@ -44,7 +44,7 @@
     padding-top: 10px;
 
     
-    width: 130px;
+    width: 100px;
     height: 100%;
 
 
@@ -63,6 +63,7 @@
 .navigation-menu ul {
     display: flex;
     padding: 0;
+    margin-top: 10px;
 }
 
 .navigation-menu li {
