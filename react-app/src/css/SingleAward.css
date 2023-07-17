@@ -16,7 +16,8 @@
     right: 0;
     z-index: -1;
     opacity: .4;
-    width: 10%;
+    /* width: 10%; */
+ 
 
 }
 
@@ -24,6 +25,7 @@
     visibility: visible;
     animation-duration: 3500ms;
     animation-delay: 500ms;
+ 
 
 }
 
@@ -34,7 +36,13 @@
 
     visibility: visible;
     border-radius: 30% 70% 0% 100% / 24% 25% 75% 76%;
-    padding-top: 0px;
+    /* padding-top: 0px; */
+    margin-top: 3%;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+   float: right;
+    
 
 
 }
@@ -72,6 +80,9 @@
     font-weight: 800;
     text-transform: capitalize;
     z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 110%;
 }
 
 .banner-one__content {
@@ -115,6 +126,8 @@
     position: relative;
     margin-bottom: 100px;
     padding-bottom: 1px;
+   
+  
 
 }
 
@@ -172,10 +185,10 @@
 }
 
 @media (min-width: 768px) {
-
+/* 
     .cover-intro {
         max-width: 720px;
-    }
+    } */
 }
 
 

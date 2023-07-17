@@ -28,8 +28,8 @@ export const SingleAward = (props) => {
 
 
     const publicKey = '1'
-    const serviceID = '2'
-    const templateID = '3'
+    const serviceID = '12'
+    const templateID = '123'
     // const clearState = () => setState({ ...initialState });
 
 
@@ -65,7 +65,7 @@ export const SingleAward = (props) => {
                             <div class="row">
                                 <div class="banner-one__inner-box">
                                     <h2 class="banner-one__big-title">{title}</h2>
-                                    <div class="banner-one__content">'
+                                    <div class="banner-one__content">
                                         <div class="section-title">
                                             <div class="section-title__tagline" >
 
@@ -130,7 +130,7 @@ export const SingleAward = (props) => {
                         <div className='award-deck3' >
 
                             <Button className="loHemt" variant="primary" onClick={handleShow}>
-                                <svg viewBox="0 0 512 512" color="currentColor" mr="12px" xmlns="http://www.w3.org/2000/svg" class="sc-1f4f182b-0 dndkUl">
+                                <svg viewBox="0 0 512 512" color="currentColor" mr="12px" xmlns="http://www.w3.org/2000/svg" className="sc-1f4f182b-0 dndkUl">
 
                                     <path d="M336 176h40a40 40 0 0140 40v208a40 40 0 01-40 40H136a40 40 0 01-40-40V216a40 40 0 0140-40h40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="30">
                                     </path>
